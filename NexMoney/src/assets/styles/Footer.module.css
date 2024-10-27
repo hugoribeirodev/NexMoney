@@ -1,0 +1,56 @@
+.footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divpaifooter {
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.divpailist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    width: 100%;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.divnexmoney, .divconosco, .divprodutos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divnexmoney h1, .divconosco h1, .divprodutos h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.divdireitos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.divdireitos img {
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.divdireitos p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #ffc107;
+}
